@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Tasya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f3f0ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #7c4dff, #b388ff);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 8px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #673ab7;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #b388ff;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            width: 35%;
+            color: #673ab7;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #7c4dff;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 8px;
+            padding: 10px 18px;
+            background: #673ab7;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+
+        .contact a:hover {
+            background: #512da8;
+        }
+
+        footer {
+            text-align: center;
+            background: #673ab7;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+
+            header img {
+                width: 110px;
+                height: 110px;
+            }
+
+            td:first-child {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER / HERO -->
+    <header>
+        <img src="foto.jpg" alt="Foto Profil">
+        <h1>Tasya</h1>
+        <p>Kelas XI rpl</p>
+        <p>💻 Belajar Coding,Membangun Masa Depan</p>
+    </header>
+
+    <!-- TENTANG SAYA -->
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo! Nama saya Tasya. Saya adalah seorang siswa jurusan
+            RPL yang tertarik dengan dunia perangkat lunak dan pemrograman.
+            Saya senang mempelajari hal-hal baru, mengcoding, dan membuat
+            website sederhana menggunakan HTML dan CSS.
+        </p>
+    </section>
+
+    <!-- BIODATA -->
+    <section>
+        <h2>Biodata</h2>
+
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>Tasya</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>Pontianak,10</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Jalandrsoedarso</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>Xrpl</td>
+            </tr>
+            <tr>
+                <td>Email Sekolah</td>
+                <td>tasyatas0011@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section>
+        <h2>Keahlian & Hobi</h2>
+
+        <div class="skills">
+            <div class="skill">Menggambar</div>
+            <div class="skill">Desain</div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+        <h2>Kontak & Media Sosial</h2>
+
+        <a href="https://www.instagram.com/tsyaas_47?stkn=MWNibG1jemxwMnAyMg==" target="_blank">
+            Instagram
+        </a>
+
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Tasya | Website Profil Pribadi</p>
+    </footer>
+
+</body>
+</html>
